@@ -9,7 +9,7 @@ import random
 
 from GUI import GUI
 
-file = open("words", encoding="utf8")  # open file
+file = open("words.txt", encoding="utf8")  # open file
 num_lines = len(file.readlines())  # number of lines in file
 
 
